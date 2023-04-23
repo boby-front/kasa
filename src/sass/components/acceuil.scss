@@ -1,0 +1,28 @@
+.section-acceuil {
+    background-color: $second-color;
+    background-size: cover; 
+    width: 100%;
+    border-radius: 25px; 
+    padding-top: 5vh ;
+    article {
+        margin-bottom: 5vh;
+      width: 29%;
+      max-width: 340px;
+      height: 340px;
+      border-radius: 10px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      object-fit: cover;
+      position: relative;
+      padding: 10px;
+      box-sizing: border-box;
+      h3{
+        font-size: 18px;
+        font-weight: 500;
+        color: white;
+        position: absolute;
+        bottom: 5%;
+      }
+    }
+}

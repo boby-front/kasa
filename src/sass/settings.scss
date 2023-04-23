@@ -1,0 +1,49 @@
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    max-width: 1440px;
+    margin: auto;
+    padding: 5vh 8vw 0px 8vw;
+    box-sizing: border-box;
+    a{
+        text-decoration: none;
+    }
+}
+
+// TOOLBOX
+
+.flexCenter{
+    display: flex;
+    align-items: center;
+}
+
+.flexBetween{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexJustifyCenter{
+    display: flex;
+    justify-content: center;
+}
+
+.flexWrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexEvently{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+.textVertical{
+    vertical-align: center;
+}
