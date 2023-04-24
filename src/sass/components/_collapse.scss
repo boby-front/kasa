@@ -1,0 +1,54 @@
+
+    .collapse{
+        .collapse-header{
+            list-style-type: none;
+        }
+        h3{
+            background-color: $main-color;
+            color: white;
+            font-size: 18px;
+            font-weight: 500;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 0;
+            margin-bottom: -25px;
+            z-index: 2;
+            position: relative;
+        }
+        p{
+            background-color: $second-color;
+            color: $main-color;
+        }
+        .collapse-content {
+            background-color: $second-color;
+            color: $main-color;
+            font-size:18px ;
+            font-weight: 400;
+            padding: 20px 10px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            font{
+                margin-bottom: 5px;
+            }
+        }
+        width: 80%;
+        margin: 30px auto;
+    }
+
+    .collapse-container{
+        margin-bottom: 20px;
+        .collapse{
+            width: 46%;
+        }
+    }
+
+    .collapse-key {
+        height: 500px;
+      }
+      
+
+    .rotate {
+        transform: rotate(180deg);
+        transition: transform 0.3s ease-in-out;
+      }
+      

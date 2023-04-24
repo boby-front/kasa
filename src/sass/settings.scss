@@ -40,6 +40,16 @@ body{
     justify-content: space-evenly;
 }
 
+.flexColumn{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexEnd{
+    display: flex;
+    justify-content: flex-end;
+}
+
 .textCenter{
     text-align: center;
 }

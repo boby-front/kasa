@@ -1,0 +1,61 @@
+.section-anonce{
+    position: relative;
+    h2.title{
+        color: $main-color;
+        font-size: 36px;
+        font-weight: 500;
+        margin: 0px 0 5px 0;
+        max-width: 480px;
+    }
+    p.location{
+        color: $main-color;
+        font-size: 18px;
+        font-weight: 500;
+        margin:  0px;
+    }
+    .key-word-container{
+        margin: 20px 0px;
+        max-width: 470px;
+        span{
+            background-color: $main-color;
+            color: white;
+            font-size: 14px;
+            font-weight: 500;
+            width: 140px;
+            border-radius: 10px;
+            padding: 3px;
+            margin-right: 5px;
+            margin-bottom: 5px;
+        }
+    }
+    .star-container{
+        i{
+            font-size: 26px;
+            margin: 0px 1px;
+            color: $main-color;
+        }
+    }
+    
+}
+
+#name-cercle-container{
+    position: absolute;
+    right: 10px;
+    .name, .lastName{
+        margin: 3px 0;
+        text-align: right;
+        margin-right: 8px;
+        background-color: white;
+        color: $main-color;
+        font-size: 18px ;
+        font-weight: 500;
+    }
+    .cercle{
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        background-color: #C4C4C4;
+        ;
+    }
+}
+

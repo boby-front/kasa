@@ -1,0 +1,28 @@
+footer{
+    width: 100%;
+    background-color: black;
+    height: 209px;
+    padding-top: 20px;
+    p{
+        color: white;
+        font-weight: 500;
+        font-size: 24px;
+        margin: 50px 0px 10px 0px;
+    }
+    .logo svg{
+        &:nth-child(1){
+            height: 35px;
+            margin-right: -10px;
+        }
+        &:nth-child(4){
+            left: 75px;
+            top: 18px;
+            width: 5px;
+        }
+        &:nth-last-child(-n+4){
+            height: 30px;
+            margin: 0 -8px;
+        }
+    }
+}
+

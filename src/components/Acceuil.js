@@ -1,13 +1,18 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import data from "../data/announcement.json";
 
 const Acceuil = () => {
   return (
     <section className="section-acceuil flexCenter flexWrap flexEvently">
       {data.map((obj, index) => (
-        <article key={index} style={{ backgroundImage: `url(${obj.cover})` }}>
+        <Link
+          to={"/anonces/" + obj.id}
+          key={index}
+          style={{ backgroundImage: "url(" + obj.cover + ")" }}
+        >
           <h3>{obj.title}</h3>
-        </article>
+        </Link>
       ))}
     </section>
   );

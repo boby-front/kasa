@@ -12,7 +12,7 @@
 		],
 		"description": "Votre maison loin de chez vous. Que vous veniez de l'autre bout du monde, ou juste de quelques stations de RER, vous vous sentez chez vous dans notre appartement.",
 		"héberger": {
-			"nom": "Nathalie Jean",
+			"name": "Nathalie Jean",
 			"image": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
 		},
 		"note": "5",
@@ -74,7 +74,7 @@
 		],
 		"description": "À seulement deux pas des Buttes Chaumont, venez découvrir Paris dans ce studio tout équipé. Entièrement équipé pour votre confort et élégamment décoré, il vous permettra de vivre comme un Parisien le temps de votre séjour.",
 		"héberger": {
-			"nom": "Franck Maher",
+			"name": "Franck Maher",
 			"image": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-2.jpg"
 		},
 		"note": "3",
@@ -136,7 +136,7 @@
 		],
 		"description": "Ce loft entièrement rénové, et équipé de meubles de luxe saura vous séduire. Idéalement situé dans le 10ème arrondissement, vous déplacerez dans Paris sera un véritable jeu d'enfant.",
 		"héberger": {
-			"nom": "Franck Maher",
+			"name": "Franck Maher",
 			"image": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-2.jpg"
 		},
 		"note": "5",
@@ -193,7 +193,7 @@
 		],
 		"description": "Ce Studio entièrement fonctionnel sera votre parfait pied à terre pour toutes vos excursions parisiennes. Idéalement situé près des lignes 2 et 4, vous accéderez très rapidement à tous les points touristiques de Paris.",
 		"héberger": {
-			"nom": "Hugo Perrier",
+			"name": "Hugo Perrier",
 			"image": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-4.jpg"
 		},
 		"note": "3",
@@ -259,7 +259,7 @@
 		],
 		"description": "Paris vous tend les bras ! En famille ou entre amis, venez découvrir la ville de l'amour dans un appartement de goût. Vous pourrez profiter de tous les commerces seulement à quelques minutes de l'appartement. Sa proximité avec la gare Montparnasse en fait également un choix idéal pour celles et ceux qui doivent prendre un train.",
 		"héberger": {
-			"nom": "Adrien Chiran",
+			"name": "Adrien Chiran",
 			"image": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-6.jpg"
 		},
 		"note": "4",
@@ -289,7 +289,7 @@
 		],
 		"description": "Respirer en plein coeur de Paris ? C'est possible ! Avec vue sur un parc résidentiel, vous pourrez ouvrir les fenêtres sans avoir à souffrir du bruit des voitures et de la pollution. Au contraire, vous pourrez écouter les oiseaux . Notre appartement est également idéalement situé au coeur du 11ème arrondissement. Proche des lignes 3 et 2, vous pourrez découvrir Paris sans effort !",
 		"héberger": {
-			"nom": "Adrien Chiran",
+			"name": "Adrien Chiran",
 			"image": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-6.jpg"
 		},
 		"note": "3",
@@ -321,7 +321,7 @@
 		],
 		"description": "Situé en plein coeur du Marais, notre studio est idéal pour les touristes en quête de découverte. Sa cuisine équipée est particulièrement pratique.",
 		"héberger": {
-			"nom": "Victor Moran",
+			"name": "Victor Moran",
 			"image": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-7.jpg"
 		},
 		"note": "4",
@@ -350,7 +350,7 @@
 		],
 		"description": "Idéalement situé à 2 pas de la place de la République, ce studio particulièrement fonctionnel est parfait pour découvrir Paris. Proche de tous les points d'intérêts grâce aux 5 lignes de métro qui sont à 5 minutes, vous pourrez rentabiliser votre temps passé à la capitale.",
 		"héberger": {
-			"nom": "Sarah Devit",
+			"name": "Sarah Devit",
 			"image": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-8.jpg"
 		},
 		"note": "3",
@@ -384,7 +384,7 @@
 		],
 		"description": "Quittez Paris pour vous mettre au vert. À seulement 30 minutes de la Gare du Nord, venez découvrir la forêt d'Ecouen directement depuis la fenêtre de votre bungalow. Entièrement équipé, ce logement saura vous accueillir dans le confort, tout en vous permettant de vous contenir sur l'essentiel. Le matin, ouvrez les fenêtres, et profitez du chant des oiseaux.",
 		"héberger": {
-			"nom": "Sarah Devit",
+			"name": "Sarah Devit",
 			"image": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-8.jpg"
 		},
 		"note": "5",
@@ -485,7 +485,7 @@
 		],
 		"description": "Si vous êtes à la recherche de l'endroit idéal pour poser vos valises entre deux rdvs d'affaire, ne cherchez plus. Notre loft est l'endroit idéal. En plein coeur de la Défense, il dispose également de tous les équipements pour que vous soyez comme chez vous.",
 		"héberger": {
-			"nom": "Julie Donatella",
+			"name": "Julie Donatella",
 			"image": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-10.jpg"
 		},
 		"note": "3",
@@ -518,7 +518,7 @@
 		],
 		"description": "Ce charmant appartement offre des prestations de luxe, aux portes de Paris. À deux pas de la ligne 3, vous pourrez accéder à toutes les attractions touristiques dont vous avez toujours rêvées.",
 		"héberger": {
-			"nom": "Julie Donatella",
+			"name": "Julie Donatella",
 			"image": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-10.jpg"
 		},
 		"note": "4",
@@ -545,7 +545,7 @@
 		],
 		"description": "Cette chambre dispose de toutes les facilités nécessaires. Proche métro et commerces.",
 		"héberger": {
-			"nom": "Hugo Perrier",
+			"name": "Hugo Perrier",
 			"image": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-4.jpg"
 		},
 		"note": "2",
@@ -571,7 +571,7 @@
 		],
 		"description": "Ce studio décoré avec goût sera votre nid douillet après une longue journée passée à découvrir Paris.",
 		"héberger": {
-			"nom": "Michel Romy",
+			"name": "Michel Romy",
 			"image": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-11.jpg"
 		},
 		"note": "4",
@@ -598,7 +598,7 @@
 		],
 		"description": "Au coeur du quartier historique du Marais, cet appartement est idéal pour un couple à la découverte de Paris. Situé sur la rue de Rivoli, il est à 5 minutes du Louvre.",
 		"héberger": {
-			"nom": "Nathalie Jean",
+			"name": "Nathalie Jean",
 			"image": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
 		},
 		"note": "4",

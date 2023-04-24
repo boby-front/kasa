@@ -1,10 +1,21 @@
-header{
-    ul{
-        li{
-            list-style: none;
-            margin-left: 50px;
-            font-weight: 500;
-            color: $main-color;
+header {
+    ul {
+      li {
+        list-style: none;
+        margin-left: 50px;
+        font-weight: 500;
+        font-size: 24px;
+  
+        a.nav-link {
+          color: $main-color;
+          text-decoration: none;
+  
+          &:hover,
+          &.active-link {
+            border-bottom: solid 2px $main-color;
+          }
         }
+      }
     }
-}
+  }
+  

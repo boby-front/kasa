@@ -1,26 +1,39 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Logo from "./Logos";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 const Header = () => {
+  const location = useLocation();
+  const [activeLink, setActiveLink] = useState("/home");
+
+  useEffect(() => {
+    setActiveLink(location.pathname);
+  }, [location]);
+
   return (
     <header className="flexCenter flexBetween">
-      <Logo />
+      <Logo fillColor="#FF6060" />
       <ul className="flexCenter">
-        <NavLink
-          to="/"
-          activeClassName="active-link"
-          activeStyle={{ borderBottom: "3px solid red" }}
-        >
-          <li>Acceuil</li>
-        </NavLink>
-        <NavLink
-          to="/"
-          activeClassName="active-link"
-          activeStyle={{ borderBottom: "3px solid red" }}
-        >
-          <li>A Propos</li>
-        </NavLink>
+        <li>
+          <NavLink
+            to="/home"
+            className={`nav-link ${
+              activeLink === "/home" ? "active-link" : ""
+            }`}
+          >
+            Accueil
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/about"
+            className={`nav-link ${
+              activeLink === "/about" ? "active-link" : ""
+            }`}
+          >
+            A Propos
+          </NavLink>
+        </li>
       </ul>
     </header>
   );

@@ -1,5 +1,12 @@
 .logo{
+    position: relative;
     svg{
         margin: 3px;
+        
     }
+    .door{
+        position: absolute;
+        left: 93px;
+        top: 40px;
+        }
 }
