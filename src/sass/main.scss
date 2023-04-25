@@ -1,12 +1,12 @@
 @import "./utils/variables";
 @import "./components/acceuil.scss";
 @import "./components/banner";
-@import "./settings.scss";
 @import "./layout/header";
-@import "./components/logo";
 @import "./components/caroussel";
 @import "./pages/anonce";
 @import "./pages/about";
 @import "./components/collapse";
+@import "./pages/notfound";
 @import "./layout/footer";
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+@import "./settings.scss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');

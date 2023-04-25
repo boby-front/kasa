@@ -39,16 +39,26 @@
         margin-bottom: 20px;
         .collapse{
             width: 46%;
+            margin: 30px 0;
+        } 
+    }
+
+    #collapse-key{
+        div{
+            height: 200px;
         }
     }
 
-    .collapse-key {
-        height: 500px;
-      }
-      
+
+        
 
     .rotate {
         transform: rotate(180deg);
         transition: transform 0.3s ease-in-out;
       }
       
+
+
+      .collapse#collapse-securité{
+        margin-bottom: 90px;
+       }

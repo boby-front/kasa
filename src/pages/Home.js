@@ -1,16 +1,16 @@
 import React from "react";
-import Header from "../components/Header";
-import BannerAcceuil from "../components/BannerAcceuil";
+import Banner from "../components/Banner";
 import Acceuil from "../components/Acceuil";
-import Footer from "../components/Footer";
+import backgroundImage from "../assets/images/IMG.jpg";
 
 const Home = () => {
   return (
     <div>
-      <Header />
-      <BannerAcceuil />
+      <Banner
+        title="Chez vous, partout et ailleurs"
+        imageUrl={backgroundImage}
+      />
       <Acceuil />
-      <Footer />
     </div>
   );
 };

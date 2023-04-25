@@ -1,14 +1,12 @@
 import React from "react";
-import Header from "../components/Header";
-import BannerAbout from "../components/BannerAbout";
+import Banner from "../components/Banner";
 import Collapse from "../components/Collapse";
-import Footer from "../components/Footer";
+import backgroundImage from "../assets/images/snow.jpg";
 
 const Home = () => {
   return (
     <div>
-      <Header />
-      <BannerAbout />
+      <Banner title="" imageUrl={backgroundImage} />
       <section className="section-about">
         <Collapse title="Fiabilité">
           Les annonces postées sur Kasa garantissent une fiabilité totale. Les
@@ -25,7 +23,7 @@ const Home = () => {
           expérience parfaite. N'hésitez pas à nous contacter si vous avez la
           moindre question.
         </Collapse>
-        <Collapse title="Sécurité">
+        <Collapse title="Sécurité" id="collapse-securité">
           La sécurité est la priorité de Kasa. Aussi bien pour nos hôtes que
           pour les voyageurs, chaque logement correspond aux critères de
           sécurité établis par nos services. En laissant une note aussi bien à
@@ -34,7 +32,6 @@ const Home = () => {
           ateliers sur la sécurité domestique pour nos hôtes.
         </Collapse>
       </section>
-      <Footer />
     </div>
   );
 };

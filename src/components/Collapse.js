@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Collapse = ({ title, children }) => {
+const Collapse = ({ title, children, id }) => {
   const [isCollapsed, setIsCollapsed] = useState(true);
 
   const handleToggle = () => {
@@ -8,7 +8,7 @@ const Collapse = ({ title, children }) => {
   };
 
   return (
-    <div className="collapse">
+    <div className="collapse" id={id}>
       <h3 className="collapse-header flexBetween" onClick={handleToggle}>
         {title}
         <svg
@@ -28,7 +28,9 @@ const Collapse = ({ title, children }) => {
       <span>{isCollapsed ? "+" : "-"}</span>
 
       {!isCollapsed && (
-        <div className="collapse-content flexColumn">{children}</div>
+        <div className="collapse-content collapse-key flexColumn">
+          {children}
+        </div>
       )}
     </div>
   );

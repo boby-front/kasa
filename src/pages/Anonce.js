@@ -1,21 +1,30 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import Header from "../components/Header";
 import Caroussel from "../components/Caroussel";
 import Star from "../components/Star";
 import Collapse from "../components/Collapse";
-import Footer from "../components/Footer";
+import NotFound from "./Notfound";
 import data from "../data/announcement.json";
 
 const Annonce = () => {
   const { id } = useParams();
   const annonce = data.find((obj) => obj.id === id);
+
+  if (!annonce) {
+    return <NotFound />;
+  }
+
   const images = annonce["des photos"];
   const rating = annonce.note;
 
+  const circleStyle = {
+    backgroundImage: `url("${annonce.héberger.image}")`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  };
+
   return (
     <div>
-      <Header />
       <Caroussel images={images} />
 
       <section className="section-anonce">
@@ -24,9 +33,9 @@ const Annonce = () => {
             <p className="name">{annonce.héberger.name.split(" ")[0]}</p>
             <p className="lastName">{annonce.héberger.name.split(" ")[1]}</p>
           </div>
-          <div className="cercle"></div>
+          <div className="cercle" style={circleStyle}></div>
         </div>
-        <h2 className="title">{annonce.title}</h2>
+        <h2 id="title">{annonce.title}</h2>
         <p className="location">{annonce.location}</p>
 
         <div className="key-icon-container flexCenter flexBetween">
@@ -51,8 +60,6 @@ const Annonce = () => {
           <Collapse title="Équipements">{annonce.équipements}</Collapse>
         </div>
       </section>
-
-      <Footer />
     </div>
   );
 };

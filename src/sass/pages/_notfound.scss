@@ -1,0 +1,25 @@
+.not-found{
+    color: $main-color;
+    h1{font-size: 17vw;
+      font-weight: 700;
+      margin: 80px 0 10px 0;
+    }
+    p{
+        font-size: 2vw;
+        font-weight: 500;
+        margin-top: 40px;
+        margin-bottom: 110px;
+    }
+    a{
+        font-size: 1.3vw;
+        font-weight: 500;
+        margin-bottom: 110px;
+        display: inline-block;
+        color: $main-color;
+        text-decoration: underline;
+        transition: transform 1s ease-in-out;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+}
